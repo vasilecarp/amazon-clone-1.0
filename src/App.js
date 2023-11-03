@@ -8,7 +8,19 @@ function App() {
     <Router>
       <div className="app">
         <Routes>
-          <Route path="/" element={((<Header />), (<Home />))} />          
+          <Route
+            path="/"
+            element={[<Header key="header" />, <Home key="home" />]}
+          />
+          <Route
+            path="/checkout"
+            element={
+              <div>
+                <Header />
+                <h1>I am a Checkout page</h1>
+              </div>
+            }
+          />
         </Routes>
       </div>
     </Router>
