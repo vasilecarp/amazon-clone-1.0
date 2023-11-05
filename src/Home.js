@@ -8,7 +8,7 @@ function Home() {
       <div className="home__container">
         <img
           className="home__image"
-          src="https://m.media-amazon.com/images/I/71Ie3JXGfVL._SX3000_.jpg"
+          src="https://m.media-amazon.com/images/I/71cvRGs+pPL._SX3000_.jpg"
           alt=""
         />
         <div className="home__row">
