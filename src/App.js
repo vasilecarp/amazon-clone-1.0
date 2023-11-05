@@ -8,7 +8,6 @@ function App() {
   return (
     <Router>
       <div className="app">
-        <Header />
         <Routes>
           <Route
             path="/login"
@@ -22,11 +21,20 @@ function App() {
             path="/checkout"
             element={
               <div>
+                <Header />
                 <Checkout />
               </div>
             }
           />
-          <Route path="/" element={<Home key="home" />} />
+          <Route
+            path="/"
+            element={
+              <div>
+                <Header />
+                <Home />
+              </div>
+            }
+          />
         </Routes>
       </div>
     </Router>
