@@ -11,17 +11,22 @@ function App() {
         <Header />
         <Routes>
           <Route
-            path="/"
-            element={<Home key="home" />}
+            path="/login"
+            element={
+              <div>
+                <h1>Login Page</h1>
+              </div>
+            }
           />
           <Route
             path="/checkout"
             element={
-              <div>                
+              <div>
                 <Checkout />
               </div>
             }
           />
+          <Route path="/" element={<Home key="home" />} />
         </Routes>
       </div>
     </Router>
