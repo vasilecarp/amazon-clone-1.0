@@ -8,11 +8,15 @@ import { useEffect } from "react";
 import { auth } from "./firebase";
 import { useStateValue } from "./StateProvider";
 import Payment from "./Payment";
+import { loadStripe } from "@stripe/stripe-js";
+import { Elements } from "@stripe/react-stripe-js";
 
-
+const promise = loadStripe(
+  "pk_test_51O9moLEYF198cHLRIsEY7uIVBQyFG35MFUZ7lKMAnwgGPLbNrTIh17yK9wnSpgqaCJytxV7isjtjVkJYGM7H0mgn00WqNDoYI0"
+);
 
 function App() {
-  const [{basket}, dispatch] = useStateValue();
+  const [{ basket }, dispatch] = useStateValue();
 
   useEffect(() => {
     // will only run once when the app component loads...
@@ -64,7 +68,9 @@ function App() {
             element={
               <div>
                 <Header />
-                <Payment />                
+                <Elements stripe={promise}>
+                  <Payment />
+                </Elements>
               </div>
             }
           />
