@@ -7,9 +7,12 @@ import Login from "./Login";
 import { useEffect } from "react";
 import { auth } from "./firebase";
 import { useStateValue } from "./StateProvider";
+import Payment from "./Payment";
+
+
 
 function App() {
-  const [{}, dispatch] = useStateValue();
+  const [{basket}, dispatch] = useStateValue();
 
   useEffect(() => {
     // will only run once when the app component loads...
@@ -53,6 +56,15 @@ function App() {
               <div>
                 <Header />
                 <Checkout />
+              </div>
+            }
+          />
+          <Route
+            path="/checkout/payment"
+            element={
+              <div>
+                <Header />
+                <Payment />                
               </div>
             }
           />
