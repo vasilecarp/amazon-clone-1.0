@@ -46,9 +46,15 @@ function App() {
     <Router>
       <div className="app">
         <Routes>
-          <Route path="/orders">
-            <Orders />
-          </Route>
+          <Route
+            path="/orders"
+            element={
+              <>
+                <Header />
+                <Orders />
+              </>
+            }
+          />
           <Route
             path="/login"
             element={
