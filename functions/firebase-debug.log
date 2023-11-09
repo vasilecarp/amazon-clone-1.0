@@ -909,3 +909,58 @@ SyntaxError: missing ) after argument list
 [error] !!  functions: Failed to start functions in D:\dev_react.js\amazon-clone-1.0\functions: FirebaseError: Failed to load function. {"metadata":{"emulator":{"name":"functions"},"message":"Failed to start functions in D:\\dev_react.js\\amazon-clone-1.0\\functions: FirebaseError: Failed to load function."}}
 [debug] [2023-11-09T10:09:16.672Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
 [debug] [2023-11-09T22:49:48.615Z] File D:\dev_react.js\amazon-clone-1.0\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File D:\\dev_react.js\\amazon-clone-1.0\\functions\\index.js changed, reloading triggers"}}
+[debug] [2023-11-09T22:49:49.627Z] Validating nodejs source
+[debug] [2023-11-09T22:49:51.855Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^14.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-11-09T22:49:51.856Z] Building nodejs source
+[debug] [2023-11-09T22:49:51.856Z] Failed to find version of module node: reached end of search path D:\dev_react.js\amazon-clone-1.0\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2023-11-09T22:49:51.858Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-11-09T22:49:51.876Z] Found firebase-functions binary at 'D:\dev_react.js\amazon-clone-1.0\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8048
+
+[error] D:\dev_react.js\amazon-clone-1.0\functions\index.js:35
+    }
+    ^
+
+SyntaxError: missing ) after argument list
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+    at Module._compile (node:internal/modules/cjs/loader:1069:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at loadModule (D:\dev_react.js\amazon-clone-1.0\functions\node_modules\firebase-functions\lib\runtime\loader.js:40:16)
+    at loadStack (D:\dev_react.js\amazon-clone-1.0\functions\node_modules\firebase-functions\lib\runtime\loader.js:93:23)
+
+[debug] [2023-11-09T22:49:54.136Z] Got response code 400; body Failed to generate manifest from function source: SyntaxError: missing ) after argument list
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error"}}
