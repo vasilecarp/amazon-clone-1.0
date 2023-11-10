@@ -1263,3 +1263,414 @@ SyntaxError: missing ) after argument list
 
 [debug] [2023-11-09T23:14:38.250Z] Got response code 400; body Failed to generate manifest from function source: SyntaxError: missing ) after argument list
 [error] !!  functions: Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error"}}
+[debug] [2023-11-09T23:34:02.133Z] [work-queue] {"queuedWork":["/clone-6764a/us-central1/api/payments/create-2023-11-09T23:34:02.133Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-11-09T23:34:02.133Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-6764a/us-central1/api/payments/create-2023-11-09T23:34:02.133Z"],"workRunningCount":1}
+[debug] [2023-11-09T23:34:02.134Z] Accepted request POST /clone-6764a/us-central1/api/payments/create?total=26292 --> us-central1-api
+[debug] [2023-11-09T23:34:02.144Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2023-11-09T23:34:02.145Z] [functions] Got req.url=/clone-6764a/us-central1/api/payments/create?total=26292, mapping to path=/payments/create?total=26292 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/clone-6764a/us-central1/api/payments/create?total=26292, mapping to path=/payments/create?total=26292"}}
+[debug] [2023-11-09T23:34:02.145Z] [worker-pool] Cleaned up workers for us-central1-api: 2 --> 0 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Cleaned up workers for us-central1-api: 2 --> 0"}}
+[debug] [2023-11-09T23:34:02.156Z] [worker-pool] addWorker(us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-api)"}}
+[debug] [2023-11-09T23:34:02.156Z] [worker-pool] Adding worker with key us-central1-api, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-api, total=1"}}
+[debug] [2023-11-09T23:34:02.159Z] [work-queue] {"queuedWork":["/clone-6764a/us-central1/api/payments/create-2023-11-09T23:34:02.159Z"],"queueLength":1,"runningWork":["/clone-6764a/us-central1/api/payments/create-2023-11-09T23:34:02.133Z"],"workRunningCount":1}
+[debug] [2023-11-09T23:34:02.159Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-6764a/us-central1/api/payments/create-2023-11-09T23:34:02.133Z","/clone-6764a/us-central1/api/payments/create-2023-11-09T23:34:02.159Z"],"workRunningCount":2}
+[debug] [2023-11-09T23:34:02.160Z] Accepted request POST /clone-6764a/us-central1/api/payments/create?total=26292 --> us-central1-api
+[debug] [2023-11-09T23:34:02.170Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2023-11-09T23:34:02.171Z] [functions] Got req.url=/clone-6764a/us-central1/api/payments/create?total=26292, mapping to path=/payments/create?total=26292 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/clone-6764a/us-central1/api/payments/create?total=26292, mapping to path=/payments/create?total=26292"}}
+[debug] [2023-11-09T23:34:02.180Z] [worker-pool] addWorker(us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-api)"}}
+[debug] [2023-11-09T23:34:02.181Z] [worker-pool] Adding worker with key us-central1-api, total=2 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-api, total=2"}}
+[debug] [2023-11-09T23:34:04.968Z] [runtime-status] [1156] Resolved module firebase-admin {"declared":true,"installed":true,"version":"11.11.0","resolution":"D:\\dev_react.js\\amazon-clone-1.0\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1156] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"11.11.0\",\"resolution\":\"D:\\\\dev_react.js\\\\amazon-clone-1.0\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2023-11-09T23:34:04.970Z] [runtime-status] [1156] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.5.0","resolution":"D:\\dev_react.js\\amazon-clone-1.0\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1156] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.5.0\",\"resolution\":\"D:\\\\dev_react.js\\\\amazon-clone-1.0\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
+[debug] [2023-11-09T23:34:04.971Z] [runtime-status] [1156] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1156] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2023-11-09T23:34:04.972Z] [runtime-status] [1156] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.5.0","resolution":"D:\\dev_react.js\\amazon-clone-1.0\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1156] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.5.0\",\"resolution\":\"D:\\\\dev_react.js\\\\amazon-clone-1.0\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
+[debug] [2023-11-09T23:34:05.025Z] [runtime-status] [11528] Resolved module firebase-admin {"declared":true,"installed":true,"version":"11.11.0","resolution":"D:\\dev_react.js\\amazon-clone-1.0\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [11528] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"11.11.0\",\"resolution\":\"D:\\\\dev_react.js\\\\amazon-clone-1.0\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2023-11-09T23:34:05.028Z] [runtime-status] [11528] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.5.0","resolution":"D:\\dev_react.js\\amazon-clone-1.0\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [11528] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.5.0\",\"resolution\":\"D:\\\\dev_react.js\\\\amazon-clone-1.0\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
+[debug] [2023-11-09T23:34:05.028Z] [runtime-status] [11528] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [11528] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2023-11-09T23:34:05.030Z] [runtime-status] [11528] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.5.0","resolution":"D:\\dev_react.js\\amazon-clone-1.0\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [11528] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.5.0\",\"resolution\":\"D:\\\\dev_react.js\\\\amazon-clone-1.0\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
+[debug] [2023-11-09T23:34:05.349Z] [runtime-status] [1156] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1156] Checked functions.config() {\"config\":{}}"}}
+[debug] [2023-11-09T23:34:05.349Z] [runtime-status] [1156] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"4.5.0","resolution":"D:\\dev_react.js\\amazon-clone-1.0\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1156] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"4.5.0\",\"resolution\":\"D:\\\\dev_react.js\\\\amazon-clone-1.0\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}}"}}
+[debug] [2023-11-09T23:34:05.350Z] [runtime-status] [1156] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.5.0","resolution":"D:\\dev_react.js\\amazon-clone-1.0\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1156] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.5.0\",\"resolution\":\"D:\\\\dev_react.js\\\\amazon-clone-1.0\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
+[debug] [2023-11-09T23:34:05.351Z] [runtime-status] [1156] Resolved module firebase-admin {"declared":true,"installed":true,"version":"11.11.0","resolution":"D:\\dev_react.js\\amazon-clone-1.0\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1156] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"11.11.0\",\"resolution\":\"D:\\\\dev_react.js\\\\amazon-clone-1.0\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2023-11-09T23:34:05.354Z] [runtime-status] [1156] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.5.0","resolution":"D:\\dev_react.js\\amazon-clone-1.0\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1156] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.5.0\",\"resolution\":\"D:\\\\dev_react.js\\\\amazon-clone-1.0\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
+[debug] [2023-11-09T23:34:05.354Z] [runtime-status] [1156] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"11.11.0","resolution":"D:\\dev_react.js\\amazon-clone-1.0\\functions\\node_modules\\firebase-admin\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1156] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"11.11.0\",\"resolution\":\"D:\\\\dev_react.js\\\\amazon-clone-1.0\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}}"}}
+[warn] !  D:\dev_react.js\amazon-clone-1.0\functions\index.js:32
+    }
+    ^
+
+SyntaxError: missing ) after argument list
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+    at Module._compile (node:internal/modules/cjs/loader:1069:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at loadTriggers (C:\Users\vasil\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:584:25)
+    at main (C:\Users\vasil\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:637:32) {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"D:\\dev_react.js\\amazon-clone-1.0\\functions\\index.js:32\n    }\n    ^\n\nSyntaxError: missing ) after argument list\n    at Object.compileFunction (node:vm:352:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1033:15)\n    at Module._compile (node:internal/modules/cjs/loader:1069:27)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Module._load (node:internal/modules/cjs/loader:827:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at loadTriggers (C:\\Users\\vasil\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:584:25)\n    at main (C:\\Users\\vasil\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:637:32)"}}
+[warn] !  We were unable to load your functions code. (see above) {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{}}}
+[warn] !  functions: Failed to initialize and load triggers. This shouldn't happen: missing ) after argument list {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Failed to initialize and load triggers. This shouldn't happen: missing ) after argument list"}}
+[warn] !  Your function was killed because it raised an unhandled error. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Your function was killed because it raised an unhandled error."}}
+[debug] [2023-11-09T23:34:05.378Z] [worker-us-central1-api-7d70df9d-452b-4679-8679-05d021fa8a5c]: exited {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-7d70df9d-452b-4679-8679-05d021fa8a5c]: exited"}}
+[debug] [2023-11-09T23:34:05.378Z] [worker-us-central1-api-7d70df9d-452b-4679-8679-05d021fa8a5c]: FINISHED {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-7d70df9d-452b-4679-8679-05d021fa8a5c]: FINISHED"}}
+[debug] [2023-11-09T23:34:05.411Z] [runtime-status] [11528] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [11528] Checked functions.config() {\"config\":{}}"}}
+[debug] [2023-11-09T23:34:05.412Z] [runtime-status] [11528] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"4.5.0","resolution":"D:\\dev_react.js\\amazon-clone-1.0\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [11528] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"4.5.0\",\"resolution\":\"D:\\\\dev_react.js\\\\amazon-clone-1.0\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}}"}}
+[debug] [2023-11-09T23:34:05.413Z] [runtime-status] [11528] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.5.0","resolution":"D:\\dev_react.js\\amazon-clone-1.0\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [11528] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.5.0\",\"resolution\":\"D:\\\\dev_react.js\\\\amazon-clone-1.0\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
+[debug] [2023-11-09T23:34:05.415Z] [runtime-status] [11528] Resolved module firebase-admin {"declared":true,"installed":true,"version":"11.11.0","resolution":"D:\\dev_react.js\\amazon-clone-1.0\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [11528] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"11.11.0\",\"resolution\":\"D:\\\\dev_react.js\\\\amazon-clone-1.0\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2023-11-09T23:34:05.418Z] [runtime-status] [11528] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.5.0","resolution":"D:\\dev_react.js\\amazon-clone-1.0\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [11528] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.5.0\",\"resolution\":\"D:\\\\dev_react.js\\\\amazon-clone-1.0\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
+[debug] [2023-11-09T23:34:05.419Z] [runtime-status] [11528] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"11.11.0","resolution":"D:\\dev_react.js\\amazon-clone-1.0\\functions\\node_modules\\firebase-admin\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [11528] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"11.11.0\",\"resolution\":\"D:\\\\dev_react.js\\\\amazon-clone-1.0\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}}"}}
+[warn] !  D:\dev_react.js\amazon-clone-1.0\functions\index.js:32
+    }
+    ^
+
+SyntaxError: missing ) after argument list
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+    at Module._compile (node:internal/modules/cjs/loader:1069:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at loadTriggers (C:\Users\vasil\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:584:25)
+    at main (C:\Users\vasil\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:637:32) {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"D:\\dev_react.js\\amazon-clone-1.0\\functions\\index.js:32\n    }\n    ^\n\nSyntaxError: missing ) after argument list\n    at Object.compileFunction (node:vm:352:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1033:15)\n    at Module._compile (node:internal/modules/cjs/loader:1069:27)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Module._load (node:internal/modules/cjs/loader:827:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at loadTriggers (C:\\Users\\vasil\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:584:25)\n    at main (C:\\Users\\vasil\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:637:32)"}}
+[warn] !  We were unable to load your functions code. (see above) {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{}}}
+[warn] !  functions: Failed to initialize and load triggers. This shouldn't happen: missing ) after argument list {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Failed to initialize and load triggers. This shouldn't happen: missing ) after argument list"}}
+[warn] !  Your function was killed because it raised an unhandled error. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Your function was killed because it raised an unhandled error."}}
+[debug] [2023-11-09T23:34:05.443Z] [worker-us-central1-api-2a87cd74-ed7a-47a9-b6b0-419362fce37a]: exited {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-2a87cd74-ed7a-47a9-b6b0-419362fce37a]: exited"}}
+[debug] [2023-11-09T23:34:05.444Z] [worker-us-central1-api-2a87cd74-ed7a-47a9-b6b0-419362fce37a]: FINISHED {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-2a87cd74-ed7a-47a9-b6b0-419362fce37a]: FINISHED"}}
+[error] !!  functions: Failed to handle request for function us-central1-api {"metadata":{"emulator":{"name":"functions"},"message":"Failed to handle request for function us-central1-api"}}
+[error] !!  functions: Failed to start functions in D:\dev_react.js\amazon-clone-1.0\functions: FirebaseError: Failed to load function. {"metadata":{"emulator":{"name":"functions"},"message":"Failed to start functions in D:\\dev_react.js\\amazon-clone-1.0\\functions: FirebaseError: Failed to load function."}}
+[debug] [2023-11-09T23:34:32.226Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-6764a/us-central1/api/payments/create-2023-11-09T23:34:02.159Z"],"workRunningCount":1}
+[error] !!  functions: Failed to handle request for function us-central1-api {"metadata":{"emulator":{"name":"functions"},"message":"Failed to handle request for function us-central1-api"}}
+[error] !!  functions: Failed to start functions in D:\dev_react.js\amazon-clone-1.0\functions: FirebaseError: Failed to load function. {"metadata":{"emulator":{"name":"functions"},"message":"Failed to start functions in D:\\dev_react.js\\amazon-clone-1.0\\functions: FirebaseError: Failed to load function."}}
+[debug] [2023-11-09T23:34:32.228Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-11-09T23:38:54.302Z] File D:\dev_react.js\amazon-clone-1.0\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File D:\\dev_react.js\\amazon-clone-1.0\\functions\\index.js changed, reloading triggers"}}
+[debug] [2023-11-09T23:38:55.315Z] Validating nodejs source
+[debug] [2023-11-09T23:38:57.684Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^14.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-11-09T23:38:57.684Z] Building nodejs source
+[debug] [2023-11-09T23:38:57.685Z] Failed to find version of module node: reached end of search path D:\dev_react.js\amazon-clone-1.0\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2023-11-09T23:38:57.686Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-11-09T23:38:57.709Z] Found firebase-functions binary at 'D:\dev_react.js\amazon-clone-1.0\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8354
+
+[error] D:\dev_react.js\amazon-clone-1.0\functions\index.js:35
+exports.api = functions.https.onRequest(app);
+                                           ^
+
+SyntaxError: missing ) after argument list
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+    at Module._compile (node:internal/modules/cjs/loader:1069:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at loadModule (D:\dev_react.js\amazon-clone-1.0\functions\node_modules\firebase-functions\lib\runtime\loader.js:40:16)
+    at loadStack (D:\dev_react.js\amazon-clone-1.0\functions\node_modules\firebase-functions\lib\runtime\loader.js:93:23)
+
+[debug] [2023-11-09T23:38:58.056Z] Got response code 400; body Failed to generate manifest from function source: SyntaxError: missing ) after argument list
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error"}}
+[debug] [2023-11-09T23:39:07.764Z] [work-queue] {"queuedWork":["/clone-6764a/us-central1/api/payments/create-2023-11-09T23:39:07.764Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-11-09T23:39:07.764Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-6764a/us-central1/api/payments/create-2023-11-09T23:39:07.764Z"],"workRunningCount":1}
+[debug] [2023-11-09T23:39:07.764Z] Accepted request POST /clone-6764a/us-central1/api/payments/create?total=0 --> us-central1-api
+[debug] [2023-11-09T23:39:07.774Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2023-11-09T23:39:07.775Z] [functions] Got req.url=/clone-6764a/us-central1/api/payments/create?total=0, mapping to path=/payments/create?total=0 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/clone-6764a/us-central1/api/payments/create?total=0, mapping to path=/payments/create?total=0"}}
+[debug] [2023-11-09T23:39:07.775Z] [worker-pool] Cleaned up workers for us-central1-api: 2 --> 0 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Cleaned up workers for us-central1-api: 2 --> 0"}}
+[debug] [2023-11-09T23:39:07.784Z] [worker-pool] addWorker(us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-api)"}}
+[debug] [2023-11-09T23:39:07.785Z] [worker-pool] Adding worker with key us-central1-api, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-api, total=1"}}
+[debug] [2023-11-09T23:39:07.786Z] [work-queue] {"queuedWork":["/clone-6764a/us-central1/api/payments/create-2023-11-09T23:39:07.786Z"],"queueLength":1,"runningWork":["/clone-6764a/us-central1/api/payments/create-2023-11-09T23:39:07.764Z"],"workRunningCount":1}
+[debug] [2023-11-09T23:39:07.786Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-6764a/us-central1/api/payments/create-2023-11-09T23:39:07.764Z","/clone-6764a/us-central1/api/payments/create-2023-11-09T23:39:07.786Z"],"workRunningCount":2}
+[debug] [2023-11-09T23:39:07.786Z] Accepted request POST /clone-6764a/us-central1/api/payments/create?total=0 --> us-central1-api
+[debug] [2023-11-09T23:39:07.796Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2023-11-09T23:39:07.796Z] [functions] Got req.url=/clone-6764a/us-central1/api/payments/create?total=0, mapping to path=/payments/create?total=0 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/clone-6764a/us-central1/api/payments/create?total=0, mapping to path=/payments/create?total=0"}}
+[debug] [2023-11-09T23:39:07.806Z] [worker-pool] addWorker(us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-api)"}}
+[debug] [2023-11-09T23:39:07.807Z] [worker-pool] Adding worker with key us-central1-api, total=2 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-api, total=2"}}
+[debug] [2023-11-09T23:39:10.295Z] [runtime-status] [5584] Resolved module firebase-admin {"declared":true,"installed":true,"version":"11.11.0","resolution":"D:\\dev_react.js\\amazon-clone-1.0\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5584] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"11.11.0\",\"resolution\":\"D:\\\\dev_react.js\\\\amazon-clone-1.0\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2023-11-09T23:39:10.297Z] [runtime-status] [21384] Resolved module firebase-admin {"declared":true,"installed":true,"version":"11.11.0","resolution":"D:\\dev_react.js\\amazon-clone-1.0\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [21384] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"11.11.0\",\"resolution\":\"D:\\\\dev_react.js\\\\amazon-clone-1.0\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2023-11-09T23:39:10.299Z] [runtime-status] [5584] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.5.0","resolution":"D:\\dev_react.js\\amazon-clone-1.0\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5584] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.5.0\",\"resolution\":\"D:\\\\dev_react.js\\\\amazon-clone-1.0\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
+[debug] [2023-11-09T23:39:10.301Z] [runtime-status] [5584] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5584] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2023-11-09T23:39:10.301Z] [runtime-status] [21384] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.5.0","resolution":"D:\\dev_react.js\\amazon-clone-1.0\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [21384] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.5.0\",\"resolution\":\"D:\\\\dev_react.js\\\\amazon-clone-1.0\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
+[debug] [2023-11-09T23:39:10.303Z] [runtime-status] [21384] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [21384] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2023-11-09T23:39:10.307Z] [runtime-status] [21384] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.5.0","resolution":"D:\\dev_react.js\\amazon-clone-1.0\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [21384] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.5.0\",\"resolution\":\"D:\\\\dev_react.js\\\\amazon-clone-1.0\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
+[debug] [2023-11-09T23:39:10.307Z] [runtime-status] [5584] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.5.0","resolution":"D:\\dev_react.js\\amazon-clone-1.0\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5584] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.5.0\",\"resolution\":\"D:\\\\dev_react.js\\\\amazon-clone-1.0\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
+[debug] [2023-11-09T23:39:10.703Z] [runtime-status] [5584] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5584] Checked functions.config() {\"config\":{}}"}}
+[debug] [2023-11-09T23:39:10.703Z] [runtime-status] [5584] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"4.5.0","resolution":"D:\\dev_react.js\\amazon-clone-1.0\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5584] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"4.5.0\",\"resolution\":\"D:\\\\dev_react.js\\\\amazon-clone-1.0\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}}"}}
+[debug] [2023-11-09T23:39:10.704Z] [runtime-status] [5584] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.5.0","resolution":"D:\\dev_react.js\\amazon-clone-1.0\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5584] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.5.0\",\"resolution\":\"D:\\\\dev_react.js\\\\amazon-clone-1.0\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
+[debug] [2023-11-09T23:39:10.706Z] [runtime-status] [5584] Resolved module firebase-admin {"declared":true,"installed":true,"version":"11.11.0","resolution":"D:\\dev_react.js\\amazon-clone-1.0\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5584] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"11.11.0\",\"resolution\":\"D:\\\\dev_react.js\\\\amazon-clone-1.0\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2023-11-09T23:39:10.707Z] [runtime-status] [21384] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [21384] Checked functions.config() {\"config\":{}}"}}
+[debug] [2023-11-09T23:39:10.707Z] [runtime-status] [21384] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"4.5.0","resolution":"D:\\dev_react.js\\amazon-clone-1.0\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [21384] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"4.5.0\",\"resolution\":\"D:\\\\dev_react.js\\\\amazon-clone-1.0\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}}"}}
+[debug] [2023-11-09T23:39:10.708Z] [runtime-status] [21384] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.5.0","resolution":"D:\\dev_react.js\\amazon-clone-1.0\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [21384] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.5.0\",\"resolution\":\"D:\\\\dev_react.js\\\\amazon-clone-1.0\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
+[debug] [2023-11-09T23:39:10.710Z] [runtime-status] [21384] Resolved module firebase-admin {"declared":true,"installed":true,"version":"11.11.0","resolution":"D:\\dev_react.js\\amazon-clone-1.0\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [21384] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"11.11.0\",\"resolution\":\"D:\\\\dev_react.js\\\\amazon-clone-1.0\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2023-11-09T23:39:10.710Z] [runtime-status] [5584] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.5.0","resolution":"D:\\dev_react.js\\amazon-clone-1.0\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5584] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.5.0\",\"resolution\":\"D:\\\\dev_react.js\\\\amazon-clone-1.0\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
+[debug] [2023-11-09T23:39:10.711Z] [runtime-status] [5584] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"11.11.0","resolution":"D:\\dev_react.js\\amazon-clone-1.0\\functions\\node_modules\\firebase-admin\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5584] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"11.11.0\",\"resolution\":\"D:\\\\dev_react.js\\\\amazon-clone-1.0\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}}"}}
+[warn] !  D:\dev_react.js\amazon-clone-1.0\functions\index.js:35
+exports.api = functions.https.onRequest(app);
+                                           ^
+
+SyntaxError: missing ) after argument list
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+    at Module._compile (node:internal/modules/cjs/loader:1069:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at loadTriggers (C:\Users\vasil\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:584:25)
+    at main (C:\Users\vasil\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:637:32) {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"D:\\dev_react.js\\amazon-clone-1.0\\functions\\index.js:35\nexports.api = functions.https.onRequest(app);\n                                           ^\n\nSyntaxError: missing ) after argument list\n    at Object.compileFunction (node:vm:352:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1033:15)\n    at Module._compile (node:internal/modules/cjs/loader:1069:27)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Module._load (node:internal/modules/cjs/loader:827:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at loadTriggers (C:\\Users\\vasil\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:584:25)\n    at main (C:\\Users\\vasil\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:637:32)"}}
+[warn] !  We were unable to load your functions code. (see above) {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{}}}
+[debug] [2023-11-09T23:39:10.718Z] [runtime-status] [21384] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.5.0","resolution":"D:\\dev_react.js\\amazon-clone-1.0\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [21384] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.5.0\",\"resolution\":\"D:\\\\dev_react.js\\\\amazon-clone-1.0\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
+[debug] [2023-11-09T23:39:10.718Z] [runtime-status] [21384] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"11.11.0","resolution":"D:\\dev_react.js\\amazon-clone-1.0\\functions\\node_modules\\firebase-admin\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [21384] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"11.11.0\",\"resolution\":\"D:\\\\dev_react.js\\\\amazon-clone-1.0\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}}"}}
+[warn] !  functions: Failed to initialize and load triggers. This shouldn't happen: missing ) after argument list {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Failed to initialize and load triggers. This shouldn't happen: missing ) after argument list"}}
+[warn] !  Your function was killed because it raised an unhandled error. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Your function was killed because it raised an unhandled error."}}
+[warn] !  D:\dev_react.js\amazon-clone-1.0\functions\index.js:35
+exports.api = functions.https.onRequest(app);
+                                           ^
+
+SyntaxError: missing ) after argument list
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+    at Module._compile (node:internal/modules/cjs/loader:1069:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at loadTriggers (C:\Users\vasil\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:584:25)
+    at main (C:\Users\vasil\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:637:32) {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"D:\\dev_react.js\\amazon-clone-1.0\\functions\\index.js:35\nexports.api = functions.https.onRequest(app);\n                                           ^\n\nSyntaxError: missing ) after argument list\n    at Object.compileFunction (node:vm:352:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1033:15)\n    at Module._compile (node:internal/modules/cjs/loader:1069:27)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Module._load (node:internal/modules/cjs/loader:827:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at loadTriggers (C:\\Users\\vasil\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:584:25)\n    at main (C:\\Users\\vasil\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:637:32)"}}
+[warn] !  We were unable to load your functions code. (see above) {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{}}}
+[warn] !  functions: Failed to initialize and load triggers. This shouldn't happen: missing ) after argument list {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Failed to initialize and load triggers. This shouldn't happen: missing ) after argument list"}}
+[warn] !  Your function was killed because it raised an unhandled error. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Your function was killed because it raised an unhandled error."}}
+[debug] [2023-11-09T23:39:10.735Z] [worker-us-central1-api-7e4eb1e2-205c-4d75-9777-f25d0c99aa73]: exited {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-7e4eb1e2-205c-4d75-9777-f25d0c99aa73]: exited"}}
+[debug] [2023-11-09T23:39:10.735Z] [worker-us-central1-api-7e4eb1e2-205c-4d75-9777-f25d0c99aa73]: FINISHED {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-7e4eb1e2-205c-4d75-9777-f25d0c99aa73]: FINISHED"}}
+[debug] [2023-11-09T23:39:10.739Z] [worker-us-central1-api-377161ad-309e-4c72-a2e2-846e1a33a812]: exited {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-377161ad-309e-4c72-a2e2-846e1a33a812]: exited"}}
+[debug] [2023-11-09T23:39:10.740Z] [worker-us-central1-api-377161ad-309e-4c72-a2e2-846e1a33a812]: FINISHED {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-377161ad-309e-4c72-a2e2-846e1a33a812]: FINISHED"}}
+[debug] [2023-11-09T23:39:23.432Z] [work-queue] {"queuedWork":["/clone-6764a/us-central1/api/payments/create-2023-11-09T23:39:23.432Z"],"queueLength":1,"runningWork":["/clone-6764a/us-central1/api/payments/create-2023-11-09T23:39:07.764Z","/clone-6764a/us-central1/api/payments/create-2023-11-09T23:39:07.786Z"],"workRunningCount":2}
+[debug] [2023-11-09T23:39:23.432Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-6764a/us-central1/api/payments/create-2023-11-09T23:39:07.764Z","/clone-6764a/us-central1/api/payments/create-2023-11-09T23:39:07.786Z","/clone-6764a/us-central1/api/payments/create-2023-11-09T23:39:23.432Z"],"workRunningCount":3}
+[debug] [2023-11-09T23:39:23.432Z] Accepted request POST /clone-6764a/us-central1/api/payments/create?total=114893 --> us-central1-api
+[debug] [2023-11-09T23:39:23.442Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2023-11-09T23:39:23.443Z] [functions] Got req.url=/clone-6764a/us-central1/api/payments/create?total=114893, mapping to path=/payments/create?total=114893 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/clone-6764a/us-central1/api/payments/create?total=114893, mapping to path=/payments/create?total=114893"}}
+[debug] [2023-11-09T23:39:23.443Z] [worker-pool] Cleaned up workers for us-central1-api: 2 --> 0 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Cleaned up workers for us-central1-api: 2 --> 0"}}
+[debug] [2023-11-09T23:39:23.456Z] [worker-pool] addWorker(us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-api)"}}
+[debug] [2023-11-09T23:39:23.456Z] [worker-pool] Adding worker with key us-central1-api, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-api, total=1"}}
+[debug] [2023-11-09T23:39:23.459Z] [work-queue] {"queuedWork":["/clone-6764a/us-central1/api/payments/create-2023-11-09T23:39:23.459Z"],"queueLength":1,"runningWork":["/clone-6764a/us-central1/api/payments/create-2023-11-09T23:39:07.764Z","/clone-6764a/us-central1/api/payments/create-2023-11-09T23:39:07.786Z","/clone-6764a/us-central1/api/payments/create-2023-11-09T23:39:23.432Z"],"workRunningCount":3}
+[debug] [2023-11-09T23:39:23.459Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-6764a/us-central1/api/payments/create-2023-11-09T23:39:07.764Z","/clone-6764a/us-central1/api/payments/create-2023-11-09T23:39:07.786Z","/clone-6764a/us-central1/api/payments/create-2023-11-09T23:39:23.432Z","/clone-6764a/us-central1/api/payments/create-2023-11-09T23:39:23.459Z"],"workRunningCount":4}
+[debug] [2023-11-09T23:39:23.459Z] Accepted request POST /clone-6764a/us-central1/api/payments/create?total=114893 --> us-central1-api
+[debug] [2023-11-09T23:39:23.470Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2023-11-09T23:39:23.470Z] [functions] Got req.url=/clone-6764a/us-central1/api/payments/create?total=114893, mapping to path=/payments/create?total=114893 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/clone-6764a/us-central1/api/payments/create?total=114893, mapping to path=/payments/create?total=114893"}}
+[debug] [2023-11-09T23:39:23.481Z] [worker-pool] addWorker(us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-api)"}}
+[debug] [2023-11-09T23:39:23.481Z] [worker-pool] Adding worker with key us-central1-api, total=2 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-api, total=2"}}
+[debug] [2023-11-09T23:39:25.616Z] [runtime-status] [8788] Resolved module firebase-admin {"declared":true,"installed":true,"version":"11.11.0","resolution":"D:\\dev_react.js\\amazon-clone-1.0\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [8788] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"11.11.0\",\"resolution\":\"D:\\\\dev_react.js\\\\amazon-clone-1.0\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2023-11-09T23:39:25.619Z] [runtime-status] [8788] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.5.0","resolution":"D:\\dev_react.js\\amazon-clone-1.0\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [8788] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.5.0\",\"resolution\":\"D:\\\\dev_react.js\\\\amazon-clone-1.0\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
+[debug] [2023-11-09T23:39:25.620Z] [runtime-status] [8788] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [8788] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2023-11-09T23:39:25.621Z] [runtime-status] [8788] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.5.0","resolution":"D:\\dev_react.js\\amazon-clone-1.0\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [8788] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.5.0\",\"resolution\":\"D:\\\\dev_react.js\\\\amazon-clone-1.0\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
+[debug] [2023-11-09T23:39:25.631Z] [runtime-status] [14720] Resolved module firebase-admin {"declared":true,"installed":true,"version":"11.11.0","resolution":"D:\\dev_react.js\\amazon-clone-1.0\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [14720] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"11.11.0\",\"resolution\":\"D:\\\\dev_react.js\\\\amazon-clone-1.0\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2023-11-09T23:39:25.634Z] [runtime-status] [14720] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.5.0","resolution":"D:\\dev_react.js\\amazon-clone-1.0\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [14720] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.5.0\",\"resolution\":\"D:\\\\dev_react.js\\\\amazon-clone-1.0\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
+[debug] [2023-11-09T23:39:25.634Z] [runtime-status] [14720] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [14720] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2023-11-09T23:39:25.636Z] [runtime-status] [14720] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.5.0","resolution":"D:\\dev_react.js\\amazon-clone-1.0\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [14720] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.5.0\",\"resolution\":\"D:\\\\dev_react.js\\\\amazon-clone-1.0\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
+[debug] [2023-11-09T23:39:25.956Z] [runtime-status] [8788] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [8788] Checked functions.config() {\"config\":{}}"}}
+[debug] [2023-11-09T23:39:25.957Z] [runtime-status] [8788] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"4.5.0","resolution":"D:\\dev_react.js\\amazon-clone-1.0\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [8788] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"4.5.0\",\"resolution\":\"D:\\\\dev_react.js\\\\amazon-clone-1.0\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}}"}}
+[debug] [2023-11-09T23:39:25.958Z] [runtime-status] [8788] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.5.0","resolution":"D:\\dev_react.js\\amazon-clone-1.0\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [8788] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.5.0\",\"resolution\":\"D:\\\\dev_react.js\\\\amazon-clone-1.0\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
+[debug] [2023-11-09T23:39:25.960Z] [runtime-status] [8788] Resolved module firebase-admin {"declared":true,"installed":true,"version":"11.11.0","resolution":"D:\\dev_react.js\\amazon-clone-1.0\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [8788] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"11.11.0\",\"resolution\":\"D:\\\\dev_react.js\\\\amazon-clone-1.0\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2023-11-09T23:39:25.962Z] [runtime-status] [8788] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.5.0","resolution":"D:\\dev_react.js\\amazon-clone-1.0\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [8788] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.5.0\",\"resolution\":\"D:\\\\dev_react.js\\\\amazon-clone-1.0\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
+[debug] [2023-11-09T23:39:25.963Z] [runtime-status] [8788] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"11.11.0","resolution":"D:\\dev_react.js\\amazon-clone-1.0\\functions\\node_modules\\firebase-admin\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [8788] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"11.11.0\",\"resolution\":\"D:\\\\dev_react.js\\\\amazon-clone-1.0\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}}"}}
+[warn] !  D:\dev_react.js\amazon-clone-1.0\functions\index.js:35
+exports.api = functions.https.onRequest(app);
+                                           ^
+
+SyntaxError: missing ) after argument list
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+    at Module._compile (node:internal/modules/cjs/loader:1069:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at loadTriggers (C:\Users\vasil\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:584:25)
+    at main (C:\Users\vasil\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:637:32) {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"D:\\dev_react.js\\amazon-clone-1.0\\functions\\index.js:35\nexports.api = functions.https.onRequest(app);\n                                           ^\n\nSyntaxError: missing ) after argument list\n    at Object.compileFunction (node:vm:352:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1033:15)\n    at Module._compile (node:internal/modules/cjs/loader:1069:27)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Module._load (node:internal/modules/cjs/loader:827:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at loadTriggers (C:\\Users\\vasil\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:584:25)\n    at main (C:\\Users\\vasil\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:637:32)"}}
+[warn] !  We were unable to load your functions code. (see above) {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{}}}
+[warn] !  functions: Failed to initialize and load triggers. This shouldn't happen: missing ) after argument list {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Failed to initialize and load triggers. This shouldn't happen: missing ) after argument list"}}
+[warn] !  Your function was killed because it raised an unhandled error. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Your function was killed because it raised an unhandled error."}}
+[debug] [2023-11-09T23:39:25.985Z] [worker-us-central1-api-c2edcbf9-ee9e-423d-9671-88d6703dbcee]: exited {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-c2edcbf9-ee9e-423d-9671-88d6703dbcee]: exited"}}
+[debug] [2023-11-09T23:39:25.985Z] [worker-us-central1-api-c2edcbf9-ee9e-423d-9671-88d6703dbcee]: FINISHED {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-c2edcbf9-ee9e-423d-9671-88d6703dbcee]: FINISHED"}}
+[debug] [2023-11-09T23:39:25.987Z] [runtime-status] [14720] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [14720] Checked functions.config() {\"config\":{}}"}}
+[debug] [2023-11-09T23:39:25.988Z] [runtime-status] [14720] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"4.5.0","resolution":"D:\\dev_react.js\\amazon-clone-1.0\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [14720] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"4.5.0\",\"resolution\":\"D:\\\\dev_react.js\\\\amazon-clone-1.0\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}}"}}
+[debug] [2023-11-09T23:39:25.989Z] [runtime-status] [14720] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.5.0","resolution":"D:\\dev_react.js\\amazon-clone-1.0\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [14720] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.5.0\",\"resolution\":\"D:\\\\dev_react.js\\\\amazon-clone-1.0\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
+[debug] [2023-11-09T23:39:25.992Z] [runtime-status] [14720] Resolved module firebase-admin {"declared":true,"installed":true,"version":"11.11.0","resolution":"D:\\dev_react.js\\amazon-clone-1.0\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [14720] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"11.11.0\",\"resolution\":\"D:\\\\dev_react.js\\\\amazon-clone-1.0\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2023-11-09T23:39:25.996Z] [runtime-status] [14720] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.5.0","resolution":"D:\\dev_react.js\\amazon-clone-1.0\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [14720] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.5.0\",\"resolution\":\"D:\\\\dev_react.js\\\\amazon-clone-1.0\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
+[debug] [2023-11-09T23:39:25.996Z] [runtime-status] [14720] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"11.11.0","resolution":"D:\\dev_react.js\\amazon-clone-1.0\\functions\\node_modules\\firebase-admin\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [14720] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"11.11.0\",\"resolution\":\"D:\\\\dev_react.js\\\\amazon-clone-1.0\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}}"}}
+[warn] !  D:\dev_react.js\amazon-clone-1.0\functions\index.js:35
+exports.api = functions.https.onRequest(app);
+                                           ^
+
+SyntaxError: missing ) after argument list
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+    at Module._compile (node:internal/modules/cjs/loader:1069:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at loadTriggers (C:\Users\vasil\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:584:25)
+    at main (C:\Users\vasil\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:637:32) {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"D:\\dev_react.js\\amazon-clone-1.0\\functions\\index.js:35\nexports.api = functions.https.onRequest(app);\n                                           ^\n\nSyntaxError: missing ) after argument list\n    at Object.compileFunction (node:vm:352:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1033:15)\n    at Module._compile (node:internal/modules/cjs/loader:1069:27)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Module._load (node:internal/modules/cjs/loader:827:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at loadTriggers (C:\\Users\\vasil\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:584:25)\n    at main (C:\\Users\\vasil\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:637:32)"}}
+[warn] !  We were unable to load your functions code. (see above) {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{}}}
+[warn] !  functions: Failed to initialize and load triggers. This shouldn't happen: missing ) after argument list {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Failed to initialize and load triggers. This shouldn't happen: missing ) after argument list"}}
+[warn] !  Your function was killed because it raised an unhandled error. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Your function was killed because it raised an unhandled error."}}
+[debug] [2023-11-09T23:39:26.017Z] [worker-us-central1-api-84aecdb8-3f37-4a3e-90b5-78676ad45eac]: exited {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-84aecdb8-3f37-4a3e-90b5-78676ad45eac]: exited"}}
+[debug] [2023-11-09T23:39:26.017Z] [worker-us-central1-api-84aecdb8-3f37-4a3e-90b5-78676ad45eac]: FINISHED {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-84aecdb8-3f37-4a3e-90b5-78676ad45eac]: FINISHED"}}
+[error] !!  functions: Failed to handle request for function us-central1-api {"metadata":{"emulator":{"name":"functions"},"message":"Failed to handle request for function us-central1-api"}}
+[error] !!  functions: Failed to start functions in D:\dev_react.js\amazon-clone-1.0\functions: FirebaseError: Failed to load function. {"metadata":{"emulator":{"name":"functions"},"message":"Failed to start functions in D:\\dev_react.js\\amazon-clone-1.0\\functions: FirebaseError: Failed to load function."}}
+[debug] [2023-11-09T23:39:37.860Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-6764a/us-central1/api/payments/create-2023-11-09T23:39:07.786Z","/clone-6764a/us-central1/api/payments/create-2023-11-09T23:39:23.432Z","/clone-6764a/us-central1/api/payments/create-2023-11-09T23:39:23.459Z"],"workRunningCount":3}
+[error] !!  functions: Failed to handle request for function us-central1-api {"metadata":{"emulator":{"name":"functions"},"message":"Failed to handle request for function us-central1-api"}}
+[error] !!  functions: Failed to start functions in D:\dev_react.js\amazon-clone-1.0\functions: FirebaseError: Failed to load function. {"metadata":{"emulator":{"name":"functions"},"message":"Failed to start functions in D:\\dev_react.js\\amazon-clone-1.0\\functions: FirebaseError: Failed to load function."}}
+[debug] [2023-11-09T23:39:37.862Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-6764a/us-central1/api/payments/create-2023-11-09T23:39:23.432Z","/clone-6764a/us-central1/api/payments/create-2023-11-09T23:39:23.459Z"],"workRunningCount":2}
+[error] !!  functions: Failed to handle request for function us-central1-api {"metadata":{"emulator":{"name":"functions"},"message":"Failed to handle request for function us-central1-api"}}
+[error] !!  functions: Failed to start functions in D:\dev_react.js\amazon-clone-1.0\functions: FirebaseError: Failed to load function. {"metadata":{"emulator":{"name":"functions"},"message":"Failed to start functions in D:\\dev_react.js\\amazon-clone-1.0\\functions: FirebaseError: Failed to load function."}}
+[debug] [2023-11-09T23:39:53.519Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-6764a/us-central1/api/payments/create-2023-11-09T23:39:23.459Z"],"workRunningCount":1}
+[error] !!  functions: Failed to handle request for function us-central1-api {"metadata":{"emulator":{"name":"functions"},"message":"Failed to handle request for function us-central1-api"}}
+[error] !!  functions: Failed to start functions in D:\dev_react.js\amazon-clone-1.0\functions: FirebaseError: Failed to load function. {"metadata":{"emulator":{"name":"functions"},"message":"Failed to start functions in D:\\dev_react.js\\amazon-clone-1.0\\functions: FirebaseError: Failed to load function."}}
+[debug] [2023-11-09T23:39:53.550Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-11-09T23:44:14.414Z] File D:\dev_react.js\amazon-clone-1.0\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File D:\\dev_react.js\\amazon-clone-1.0\\functions\\index.js changed, reloading triggers"}}
+[debug] [2023-11-09T23:44:15.424Z] Validating nodejs source
+[debug] [2023-11-09T23:44:17.647Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^14.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-11-09T23:44:17.647Z] Building nodejs source
+[debug] [2023-11-09T23:44:17.647Z] Failed to find version of module node: reached end of search path D:\dev_react.js\amazon-clone-1.0\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2023-11-09T23:44:17.649Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-11-09T23:44:17.670Z] Found firebase-functions binary at 'D:\dev_react.js\amazon-clone-1.0\functions\node_modules\.bin\firebase-functions'
+[debug] [2023-11-09T23:44:17.676Z] File D:\dev_react.js\amazon-clone-1.0\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File D:\\dev_react.js\\amazon-clone-1.0\\functions\\index.js changed, reloading triggers"}}
+[info] Serving at port 8737
+
+[error] D:\dev_react.js\amazon-clone-1.0\functions\index.js:38
+// http://127.0.0.1:5001/clone-6764a/us-central1/api
+                                                    
+
+SyntaxError: Unexpected end of input
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+    at Module._compile (node:internal/modules/cjs/loader:1069:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at loadModule (D:\dev_react.js\amazon-clone-1.0\functions\node_modules\firebase-functions\lib\runtime\loader.js:40:16)
+    at loadStack (D:\dev_react.js\amazon-clone-1.0\functions\node_modules\firebase-functions\lib\runtime\loader.js:93:23)
+
+[debug] [2023-11-09T23:44:18.055Z] Got response code 400; body Failed to generate manifest from function source: SyntaxError: Unexpected end of input
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error"}}
+[debug] [2023-11-09T23:44:18.690Z] Validating nodejs source
+[debug] [2023-11-09T23:44:19.903Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^14.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-11-09T23:44:19.903Z] Building nodejs source
+[debug] [2023-11-09T23:44:19.903Z] Failed to find version of module node: reached end of search path D:\dev_react.js\amazon-clone-1.0\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2023-11-09T23:44:19.905Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-11-09T23:44:19.925Z] Found firebase-functions binary at 'D:\dev_react.js\amazon-clone-1.0\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8272
+
+[error] D:\dev_react.js\amazon-clone-1.0\functions\index.js:38
+// http://127.0.0.1:5001/clone-6764a/us-central1/api
+                                                    
+
+SyntaxError: Unexpected end of input
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1033:15)
+    at Module._compile (node:internal/modules/cjs/loader:1069:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at loadModule (D:\dev_react.js\amazon-clone-1.0\functions\node_modules\firebase-functions\lib\runtime\loader.js:40:16)
+    at loadStack (D:\dev_react.js\amazon-clone-1.0\functions\node_modules\firebase-functions\lib\runtime\loader.js:93:23)
+
+[debug] [2023-11-09T23:44:20.298Z] Got response code 400; body Failed to generate manifest from function source: SyntaxError: Unexpected end of input
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error"}}

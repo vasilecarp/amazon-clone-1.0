@@ -29,10 +29,10 @@ app.post("/payments/create", async (request, response) => {
     response.status(201).send({
         clientSecret: paymentIntent.client_secret,
     });
-    }
+    },
 
 //Listen command
-exports.api = functions.https.onRequest(app);
+exports.api = functions.https.onRequest(app),
 
 // Example endpoint
 // http://127.0.0.1:5001/clone-6764a/us-central1/api
